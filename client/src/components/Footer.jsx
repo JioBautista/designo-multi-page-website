@@ -1,10 +1,10 @@
 import React from "react";
-import classes from "../styles/footer.module.scss";
+import styles from "../styles/footer.module.scss";
 
 function Footer() {
   return (
-    <div className={classes.footer}>
-      <div className={classes.header}>
+    <div className={styles.footer}>
+      <div className={styles.header}>
         <img src="/assets/icon.png" />
         <h1>D E S I G N O</h1>
       </div>
@@ -15,20 +15,20 @@ function Footer() {
 
       <p>CONTACT</p>
 
-      <div>
-        <h2>Designo Central Office</h2>
+      <div className={styles.address}>
+        <h4>Designo Central Office</h4>
         <p>3886 Wellington Street</p>
         <p>Toronto, Ontario M9C 3J5</p>
       </div>
 
-      <div>
-        <h2>Contact Us (Central Office)</h2>
+      <div className={styles.address}>
+        <h4>Contact Us (Central Office)</h4>
         <p>P: 1+ 253-863-8967</p>
         <p>M: contact@designo.co</p>
       </div>
 
-      <div>
-        <h1>Social media icons</h1>
+      <div className={styles.icons}>
+        <img src="/assets/social-media-icons.png" />
       </div>
     </div>
   );

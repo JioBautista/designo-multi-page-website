@@ -1,5 +1,5 @@
 .footer {
-  padding: 1rem;
+  padding: 3rem 1rem;
   background-color: black;
   color: white;
   text-align: center;
@@ -12,9 +12,17 @@
     gap: 0.5rem;
     align-items: center;
     justify-content: center;
+    border-bottom: 1px solid #979797;
+    padding-bottom: 1.5rem;
 
     h1 {
       font-size: 24px;
     }
+  }
+  .address {
+    color: gray;
+  }
+  .icons {
+    margin: auto;
   }
 }
