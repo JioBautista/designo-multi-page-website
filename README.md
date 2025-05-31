@@ -17,3 +17,5 @@ I will be using simple libraries and if I need additional libraries I will updat
 N/A
 
 ## Lessons Learned:
+
+May 31 2025: Understanding semantic HTML.
