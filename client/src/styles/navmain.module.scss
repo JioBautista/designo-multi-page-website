@@ -1,0 +1,19 @@
+.section {
+  padding: 3rem 1rem;
+  color: white;
+
+  div {
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+  }
+
+  .title {
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  .link {
+    letter-spacing: 0.5rem;
+  }
+}
