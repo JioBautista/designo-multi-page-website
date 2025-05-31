@@ -3,17 +3,17 @@ import styles from "../styles/footer.module.scss";
 
 function Footer() {
   return (
-    <div className={styles.footer}>
-      <div className={styles.header}>
+    <footer className={styles.footer}>
+      <header>
         <img src="/assets/icon.png" />
         <h1>D E S I G N O</h1>
-      </div>
+      </header>
 
-      <p>OUR COMPANY</p>
-
-      <p>LOCATIONS</p>
-
-      <p>CONTACT</p>
+      <nav className={styles.nav}>
+        <p>OUR COMPANY</p>
+        <p>LOCATIONS</p>
+        <p>CONTACT</p>
+      </nav>
 
       <div className={styles.address}>
         <h4>Designo Central Office</h4>
@@ -30,7 +30,7 @@ function Footer() {
       <div className={styles.icons}>
         <img src="/assets/social-media-icons.png" />
       </div>
-    </div>
+    </footer>
   );
 }
 
