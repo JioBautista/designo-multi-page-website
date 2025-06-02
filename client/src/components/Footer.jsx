@@ -1,9 +1,10 @@
-import React from "react";
 import styles from "../styles/footer.module.scss";
+import GetInTouch from "./GetInTouch";
 
 function Footer() {
   return (
     <footer className={styles.footer}>
+      <GetInTouch />
       <header>
         <img src="/assets/icon.png" />
         <h1>D E S I G N O</h1>

@@ -1,5 +1,8 @@
 .footer {
-  padding: 3rem 1rem;
+  position: relative;
+  padding-inline: 1rem;
+  padding-bottom: 3rem;
+  padding-top: 18rem;
   background-color: black;
   color: white;
   text-align: center;
@@ -33,5 +36,23 @@
   }
   .icons {
     margin: auto;
+  }
+  .intouch {
+    position: absolute;
+    min-width: 327px;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 3rem 1rem;
+    background-color: #e7816b;
+    border-radius: 1rem;
+
+    h1 {
+      font-size: 32px;
+    }
+    p {
+      margin-bottom: 2rem;
+      font-size: 15px;
+    }
   }
 }
