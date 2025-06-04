@@ -1,5 +1,7 @@
+import { useLocation } from "react-router";
 import styles from "../styles/navmain.module.scss";
 function NavMain() {
+  const location = useLocation();
   const nav_links = [
     {
       h1: "web design",
@@ -17,9 +19,13 @@ function NavMain() {
       bgImg: "/assets/home/mobile/image-graphic-design.jpg",
     },
   ];
+
+  const filter_links = nav_links.filter(
+    (elements) => elements.a !== location.pathname
+  );
   return (
     <section className={styles.section}>
-      {nav_links?.map((elements) => (
+      {filter_links?.map((elements) => (
         <div
           style={{
             backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${elements.bgImg})`,

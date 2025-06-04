@@ -1,0 +1,20 @@
+// Header component can be reused on other pages
+.section {
+  padding: 6rem 1rem;
+  background-color: #e7816b;
+  text-align: center;
+  color: white;
+  background-image: url("/assets/web-design/desktop/bg-pattern-intro-web.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 220%;
+
+  h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 15px;
+  }
+}

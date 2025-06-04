@@ -1,5 +1,6 @@
 import styles from "../styles/footer.module.scss";
 
+// This component appears on every page except in contact page.
 function GetInTouch() {
   return (
     <div className={styles.intouch}>
