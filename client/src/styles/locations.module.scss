@@ -1,0 +1,12 @@
+// THIS STYLE SHEET BELONGS STRICTLY TO LOCATIONS COMPONENT
+.cards {
+  padding: 2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
