@@ -1,0 +1,24 @@
+.cards {
+  padding-bottom: 10rem;
+  section {
+    margin-bottom: 3rem;
+  }
+}
+.card {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-image: linear-gradient(rgba(93, 2, 2, 0), rgba(93, 2, 2, 0.1));
+  h1 {
+    color: #e7816b;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  p {
+    color: #333136;
+    font-size: 15px;
+  }
+  div {
+    margin-bottom: 1rem;
+  }
+}
