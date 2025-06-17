@@ -10,7 +10,7 @@ function Hero() {
         responsive websites, app design, and engaging brand experiences. Find
         out more about our services.
       </p>
-      <button>LEARN MORE</button>
+      <button className={styles.button}>LEARN MORE</button>
     </section>
   );
 }
