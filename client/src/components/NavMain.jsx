@@ -1,4 +1,4 @@
-import { useLocation } from "react-router";
+import { useLocation, Link } from "react-router";
 import styles from "../styles/navmain.module.scss";
 function NavMain() {
   const location = useLocation();
@@ -23,6 +23,12 @@ function NavMain() {
   const filter_links = nav_links.filter(
     (elements) => elements.a !== location.pathname
   );
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
+  }
   return (
     <section className={styles.section}>
       {filter_links?.map((elements) => (
@@ -37,9 +43,11 @@ function NavMain() {
           }}
         >
           <h1 className={styles.title}>{elements.h1}</h1>
-          <a href={elements.a} className={styles.link}>
-            VIEW PROJECTS
-          </a>
+          <Link to={elements.a}>
+            <p className={styles.link} onClick={scrollToTop}>
+              VIEW PROJECTS
+            </p>
+          </Link>
         </div>
       ))}
     </section>

@@ -1,7 +1,14 @@
 import styles from "../styles/footer.module.scss";
 import GetInTouch from "./GetInTouch";
+import { Link } from "react-router";
 
 function Footer() {
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
+  }
   return (
     <footer className={styles.footer}>
       <GetInTouch />
@@ -11,9 +18,15 @@ function Footer() {
       </header>
 
       <nav className={styles.nav}>
-        <p>OUR COMPANY</p>
-        <p>LOCATIONS</p>
-        <p>CONTACT</p>
+        <Link to="/about">
+          <p onClick={scrollToTop}>OUR COMPANY</p>
+        </Link>
+        <Link to="/locations">
+          <p onClick={scrollToTop}>LOCATIONS</p>
+        </Link>
+        <Link to="/contact">
+          <p onClick={scrollToTop}>CONTACT</p>
+        </Link>
       </nav>
 
       <div className={styles.address}>

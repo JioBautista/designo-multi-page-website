@@ -20,16 +20,24 @@ function Locations() {
       href: "/locations",
     },
   ];
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
+  }
   return (
     <section>
       <div className={styles.cards}>
         {contents?.map((elements) => (
           <React.Fragment>
             <div className={styles.card}>
-              <img src={elements.img} />
-              <h1>{elements.location}</h1>
+              <img src={elements.img} className={styles.image} />
+              <h1 className={styles.title}>{elements.location}</h1>
               <Link to={elements.href}>
-                <button>SEE LOCATION</button>
+                <button className={styles.button} onClick={scrollToTop}>
+                  SEE LOCATION
+                </button>
               </Link>
             </div>
           </React.Fragment>

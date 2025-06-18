@@ -1,12 +1,30 @@
 // THIS STYLE SHEET BELONGS STRICTLY TO LOCATIONS COMPONENT
 .cards {
-  padding: 2rem;
+  padding: 5rem 2rem;
 }
 .card {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  align-items: center;
   gap: 1rem;
+  justify-items: center;
   margin-bottom: 3rem;
+}
+.image {
+  background-image: url("/assets/shared/desktop/bg-pattern-small-circle.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.title {
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+.button {
+  background-color: #e7816b;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 1rem;
 }
