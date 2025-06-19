@@ -1,6 +1,6 @@
 import styles from "../styles/footer.module.scss";
 import GetInTouch from "./GetInTouch";
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 
 function Footer() {
   function scrollToTop() {
@@ -9,9 +9,11 @@ function Footer() {
       behavior: "instant",
     });
   }
+  const location = useLocation();
+  console.log(location.pathname);
   return (
     <footer className={styles.footer}>
-      <GetInTouch />
+      {location.pathname === "/contact" ? null : <GetInTouch />}
       <header>
         <img src="/assets/icon.png" />
         <h1>D E S I G N O</h1>

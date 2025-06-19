@@ -8,6 +8,7 @@ import AppPage from "./components/app-page/AppPage.jsx";
 import DesignPage from "./components/design-page/DesignPage.jsx";
 import About from "./components/about-page/About.jsx";
 import LocationsPage from "./components/locations-page/LocationsPage.jsx";
+import Contact from "./components/contact-page/Contact.jsx";
 import "./resets.css";
 
 createRoot(document.getElementById("root")).render(
@@ -21,6 +22,7 @@ createRoot(document.getElementById("root")).render(
           <Route path="/graphic-design" element={<DesignPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/locations" element={<LocationsPage />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
