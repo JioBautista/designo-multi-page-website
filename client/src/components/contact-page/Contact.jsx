@@ -22,7 +22,6 @@ function Contact() {
         <textarea className={styles.textarea} placeholder="Your Message" />
         <button className={styles.button}>SUBMIT</button>
       </form>
-
       <Locations />
     </main>
   );

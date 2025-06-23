@@ -1,0 +1,38 @@
+.intouchBlock {
+  position: relative;
+}
+.intouch {
+  position: absolute;
+  min-width: 327px;
+  top: -155px;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 4rem 1rem;
+  background-color: #e7816b;
+  // background-color: white;
+  border-radius: 1rem;
+  color: white;
+  text-align: center;
+}
+.title {
+  font-size: 32px;
+  line-height: 35px;
+  margin-bottom: 1rem;
+}
+.description {
+  margin-bottom: 2rem;
+  font-size: 15px;
+}
+.button {
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.halfblock {
+  background-color: black;
+  padding-inline: 1rem;
+  padding-top: 15rem;
+}

@@ -58,7 +58,9 @@ function WebPage() {
           </React.Fragment>
         ))}
       </Cards>
-      <NavMain />
+      <div style={{ marginBottom: "7rem" }}>
+        <NavMain />
+      </div>
     </main>
   );
 }

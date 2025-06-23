@@ -39,15 +39,20 @@ function NavMain() {
             backgroundSize: "cover",
             backgroundPosition: "center",
             padding: "5rem 3rem",
+            marginBottom: "3rem",
             textAlign: "center",
           }}
         >
           <h1 className={styles.title}>{elements.h1}</h1>
-          <Link to={elements.a}>
-            <p className={styles.link} onClick={scrollToTop}>
-              VIEW PROJECTS
-            </p>
-          </Link>
+
+          <div className={styles.links}>
+            <Link to={elements.a}>
+              <p className={styles.link} onClick={scrollToTop}>
+                VIEW PROJECTS
+              </p>
+            </Link>
+            <img src="/assets/shared/desktop/icon-right-arrow.svg" />
+          </div>
         </div>
       ))}
     </section>
