@@ -1,11 +1,8 @@
 .section {
-  padding-inline: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 2rem;
+  padding: 3rem 1rem;
   color: white;
 
   div {
-    margin-bottom: 3rem;
     border-radius: 1rem;
   }
 
@@ -15,7 +12,14 @@
     text-transform: uppercase;
     margin-bottom: 0.5rem;
   }
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
   .link {
-    letter-spacing: 0.5rem;
+    font-weight: 500;
+    letter-spacing: 5px;
   }
 }

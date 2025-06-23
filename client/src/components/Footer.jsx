@@ -13,7 +13,6 @@ function Footer() {
   console.log(location.pathname);
   return (
     <footer className={styles.footer}>
-      {location.pathname === "/contact" ? null : <GetInTouch />}
       <header>
         <img src="/assets/icon.png" />
         <h1>D E S I G N O</h1>

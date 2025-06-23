@@ -1,8 +1,6 @@
 .footer {
   position: relative;
-  padding-inline: 1rem;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
+  padding: 3rem 1rem;
   background-color: black;
   color: white;
   text-align: center;
@@ -36,37 +34,5 @@
   }
   .icons {
     margin: auto;
-  }
-  .intouchBlock {
-    position: relative;
-    padding: 5rem 1rem;
-  }
-  .intouch {
-    position: absolute;
-    min-width: 327px;
-    top: -230px;
-    left: 50%;
-    transform: translate(-50%);
-    padding: 4rem 1rem;
-    background-color: #e7816b;
-    border-radius: 1rem;
-
-    h1 {
-      font-size: 32px;
-      line-height: 35px;
-      margin-bottom: 1rem;
-    }
-    p {
-      margin-bottom: 2rem;
-      font-size: 15px;
-    }
-  }
-  .button {
-    background-color: white;
-    padding: 1rem 1.5rem;
-    border-radius: 0.5rem;
-    border: none;
-    font-weight: 500;
-    letter-spacing: 2px;
   }
 }

@@ -3,6 +3,7 @@ import styles from "../../styles/locations-page/locationspage.module.scss";
 function LocationsPage() {
   return (
     <main className={styles.cards}>
+      {/* CANADA SECTION */}
       <section>
         <img
           src="/assets/locations/desktop/image-map-canada.png"
@@ -22,6 +23,8 @@ function LocationsPage() {
           </div>
         </div>
       </section>
+
+      {/* AUSTRALIA SECTION */}
       <section>
         <img
           src="/assets/locations/desktop/image-map-australia.png"
@@ -41,6 +44,8 @@ function LocationsPage() {
           </div>
         </div>
       </section>
+
+      {/* UNITED KINGDOM SECTION */}
       <section>
         <img
           src="/assets/locations/desktop/image-map-united-kingdom.png"

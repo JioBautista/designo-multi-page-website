@@ -4,7 +4,8 @@ import styles from "../../styles/about-us-page/aboutus.module.scss";
 
 function About() {
   return (
-    <main style={{ paddingBottom: "11rem" }}>
+    <main className={styles.main}>
+      {/* SECTION 1 */}
       <section>
         <img src="/assets/about/desktop/image-about-hero.jpg" width={"100%"} />
         <Header>
@@ -18,6 +19,8 @@ function About() {
           </p>
         </Header>
       </section>
+
+      {/* SECTION 2 */}
       <section>
         <img
           src="/assets/about/desktop/image-world-class-talent.jpg"
@@ -40,7 +43,11 @@ function About() {
           </p>
         </div>
       </section>
+
+      {/* LOCATIONS COMPONENT */}
       <Locations />
+
+      {/* SECTION 3 */}
       <section>
         <img src="/assets/about/desktop/image-real-deal.jpg" width={"100%"} />
         <div className={styles.card}>

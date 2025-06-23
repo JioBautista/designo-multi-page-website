@@ -18,4 +18,12 @@ N/A
 
 ## Lessons Learned:
 
-May 31 2025: Understanding semantic HTML.
+- Learned more about semantic HTML and accessability.
+
+- CSS animations
+  CSS keynotes from MDN:
+  - Easier to use and can be created without JS
+  - Runs well and performs better than JS
+  - Browser can optimize performance
+  - An element must have the animation property
+  - Define animation sequence using keyframes property
