@@ -1,5 +1,5 @@
 import { useLocation, Link } from "react-router";
-import styles from "../styles/navmain.module.scss";
+import styles from "../styles/navmain.module.css";
 function NavMain() {
   const location = useLocation();
   const nav_links = [

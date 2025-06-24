@@ -1,6 +1,6 @@
 import Locations from "../Locations";
 import Header from "../../components/Header";
-import styles from "../../styles/about-us-page/aboutus.module.scss";
+import styles from "../../styles/about-us-page/aboutus.module.css";
 
 function About() {
   return (

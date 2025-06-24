@@ -1,4 +1,4 @@
-import styles from "../../styles/home-page/home-content.module.scss";
+import styles from "../../styles/home-page/home-content.module.css";
 function HomeContent() {
   return (
     <div className={styles.content}>

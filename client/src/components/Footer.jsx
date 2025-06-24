@@ -1,4 +1,4 @@
-import styles from "../styles/footer.module.scss";
+import styles from "../styles/footer.module.css";
 import GetInTouch from "./GetInTouch";
 import { Link, useLocation } from "react-router";
 

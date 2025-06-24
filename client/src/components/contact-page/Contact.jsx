@@ -1,6 +1,6 @@
 import Header from "../Header";
 import Locations from "../Locations";
-import styles from "../../styles/contact-page/contact.module.scss";
+import styles from "../../styles/contact-page/contact.module.css";
 
 function Contact() {
   return (
