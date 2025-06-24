@@ -1,5 +1,5 @@
 .app {
-  max-width: 1024px;
+  max-width: 1440px;
   margin: auto;
 }
 @media (min-width: 700px) {
@@ -9,6 +9,6 @@
 }
 @media (min-width: 1024px) {
   .app {
-    padding-inline: 5rem;
+    padding-inline: 2rem;
   }
 }
