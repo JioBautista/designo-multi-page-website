@@ -1,4 +1,4 @@
-import styles from "../styles/cards.module.scss";
+import styles from "../styles/cards.module.css";
 function Cards({ children }) {
   return <div className={styles.cards}>{children}</div>;
 }

@@ -1,4 +1,4 @@
-import styles from "../../styles/locations-page/locationspage.module.scss";
+import styles from "../../styles/locations-page/locationspage.module.css";
 
 function LocationsPage() {
   return (

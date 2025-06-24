@@ -25,6 +25,9 @@
   border: none;
   background: none;
 }
+.navlinks {
+  display: none;
+}
 .sidebar {
   z-index: 2;
   position: absolute;
@@ -49,4 +52,25 @@
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 700px) {
+  .navbar {
+    padding-inline: 0;
+    padding-block: 2rem;
+  }
+  .navbutton {
+    display: none;
+  }
+  .navlinks {
+    display: flex;
+    gap: 1rem;
+    a {
+      font-weight: 400;
+      letter-spacing: 1.5px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
 }

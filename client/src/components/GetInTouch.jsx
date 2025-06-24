@@ -1,4 +1,4 @@
-import styles from "../styles/getintouch.module.scss";
+import styles from "../styles/getintouch.module.css";
 
 // This component appears on every page except in contact page.
 function GetInTouch() {

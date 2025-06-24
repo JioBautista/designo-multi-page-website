@@ -1,12 +1,13 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import GetInTouch from "./components/GetInTouch";
-import NavMain from "./components/NavMain";
 import { Outlet, useLocation } from "react-router";
+import "./styles/app.css";
+
 function App() {
   const location = useLocation();
   return (
-    <div>
+    <div className="app">
       <Navbar />
       <Outlet />
       {location.pathname === "/contact" ? null : <GetInTouch />}

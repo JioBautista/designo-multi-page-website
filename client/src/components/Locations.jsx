@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-import styles from "../styles/locations.module.scss";
+import styles from "../styles/locations.module.css";
 
 function Locations() {
   const contents = [

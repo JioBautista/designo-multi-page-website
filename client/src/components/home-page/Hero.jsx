@@ -1,4 +1,4 @@
-import styles from "../../styles/home-page/hero.module.scss";
+import styles from "../../styles/home-page/hero.module.css";
 function Hero() {
   return (
     <section className={styles.hero}>

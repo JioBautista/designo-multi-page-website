@@ -21,9 +21,20 @@ N/A
 - Learned more about semantic HTML and accessability.
 
 - CSS animations
+
   CSS keynotes from MDN:
+
   - Easier to use and can be created without JS
   - Runs well and performs better than JS
   - Browser can optimize performance
   - An element must have the animation property
   - Define animation sequence using keyframes property
+
+- Container Queries
+
+  Keynotes from MDN:
+
+  - Apply styles to element based on container
+  - Media query uses viewport size vs container size
+  - An element must be declared with container-type property
+  - using the @container rule applies styles based on the element thats been defined with container-type property
