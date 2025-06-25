@@ -3,14 +3,16 @@
   color: white;
   position: relative;
   padding-inline: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 20rem;
+  padding-top: 3rem;
+  padding-bottom: 30rem;
   background-color: #e7816b;
   background-image: url("/assets/home/desktop/image-hero-phone.png"),
     url("/assets/home/desktop/bg-pattern-hero-home.svg");
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat, no-repeat;
-  background-position: center 275px, left top;
+  background-position: center -110%;
+  background-attachment: local;
+  background-clip: padding-box;
 }
 
 .header {
@@ -29,22 +31,33 @@
   border: none;
   font-weight: 500;
 }
-@media (min-width: 700px) {
+@media (min-width: 764px) {
   .hero {
     padding-inline: 5rem;
     border-radius: 1rem;
+    background-position: center -300%;
   }
   .header {
     font-size: 48px;
     line-height: 3rem;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
   .hero {
     text-align: left;
     padding-left: 5rem;
+    padding-right: 18rem;
+    padding-block: 5rem;
+    background-position: right top;
+  }
+  .p {
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 1300px) {
+  .hero {
     padding-right: 30rem;
-    padding-bottom: 10rem;
-    padding-top: 10rem;
+    padding-block: 10rem;
+    background-position: 120% 0;
   }
 }

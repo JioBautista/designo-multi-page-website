@@ -54,7 +54,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 764px) {
   .navbar {
     padding-inline: 0;
     padding-block: 2rem;
