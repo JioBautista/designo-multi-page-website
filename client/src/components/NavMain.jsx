@@ -6,17 +6,17 @@ function NavMain() {
     {
       h1: "web design",
       a: "/web-design",
-      bgImg: "/assets/home/mobile/image-web-design.jpg",
+      bgImg: "/assets/home/desktop/image-web-design-small.jpg",
     },
     {
       h1: "app design",
       a: "/app-design",
-      bgImg: "/assets/home/mobile/image-app-design.jpg",
+      bgImg: "/assets/home/desktop/image-app-design.jpg",
     },
     {
       h1: "graphic design",
       a: "/graphic-design",
-      bgImg: "/assets/home/mobile/image-graphic-design.jpg",
+      bgImg: "/assets/home/desktop/image-graphic-design.jpg",
     },
   ];
 

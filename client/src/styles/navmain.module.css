@@ -23,3 +23,13 @@
     letter-spacing: 5px;
   }
 }
+
+@media (min-width: 900px) {
+  .section {
+    padding-block: 3rem;
+    padding-inline: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+}
