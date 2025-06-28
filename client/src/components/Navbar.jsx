@@ -5,52 +5,47 @@ import { Link } from "react-router";
 function Navbar() {
   const [isOpen, setOpen] = React.useState(false);
   return (
-    <div className={classes.wrapper}>
-      <nav className={classes.navbar}>
-        <Link to="/">
-          <header>
-            <img src="/assets/icon.png" />
-            <h1>D E S I G N O</h1>
-          </header>
-        </Link>
+    <nav className={classes.navbar}>
+      <Link to="/">
+        <header>
+          <img src="/assets/icon.png" />
+          <h1>D E S I G N O</h1>
+        </header>
+      </Link>
 
-        <div>
-          <button
-            className={classes.navbutton}
-            onClick={() => setOpen(!isOpen)}
-          >
-            <img
-              src={`/assets/shared/mobile/icon-${
-                isOpen ? "close" : "hamburger"
-              }.svg`}
-            />
-          </button>
-        </div>
+      <div>
+        <button className={classes.navbutton} onClick={() => setOpen(!isOpen)}>
+          <img
+            src={`/assets/shared/mobile/icon-${
+              isOpen ? "close" : "hamburger"
+            }.svg`}
+          />
+        </button>
+      </div>
 
-        <div className={classes.navlinks}>
-          <Link to="/about">OUR COMPANY</Link>
-          <Link to="/locations">LOCATIONS</Link>
-          <Link to="/contact">CONTACT</Link>
-        </div>
+      <div className={classes.navlinks}>
+        <Link to="/about">OUR COMPANY</Link>
+        <Link to="/locations">LOCATIONS</Link>
+        <Link to="/contact">CONTACT</Link>
+      </div>
 
-        {isOpen ? (
-          <React.Fragment>
-            <div className={classes.sidebar}>
-              <Link to="/about" onClick={() => setOpen(!isOpen)}>
-                OUR COMPANY
-              </Link>
-              <Link to="/locations" onClick={() => setOpen(!isOpen)}>
-                LOCATIONS
-              </Link>
-              <Link to="/contact" onClick={() => setOpen(!isOpen)}>
-                CONTACT
-              </Link>
-            </div>
-            <div className={classes.overlay}></div>
-          </React.Fragment>
-        ) : null}
-      </nav>
-    </div>
+      {isOpen ? (
+        <React.Fragment>
+          <div className={classes.sidebar}>
+            <Link to="/about" onClick={() => setOpen(!isOpen)}>
+              OUR COMPANY
+            </Link>
+            <Link to="/locations" onClick={() => setOpen(!isOpen)}>
+              LOCATIONS
+            </Link>
+            <Link to="/contact" onClick={() => setOpen(!isOpen)}>
+              CONTACT
+            </Link>
+          </div>
+          <div className={classes.overlay}></div>
+        </React.Fragment>
+      ) : null}
+    </nav>
   );
 }
 

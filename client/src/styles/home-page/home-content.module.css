@@ -24,3 +24,10 @@
     margin-bottom: 1rem;
   }
 }
+@media (min-width: 900px) {
+  .content {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+  }
+}
