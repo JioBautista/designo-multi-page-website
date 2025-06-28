@@ -38,3 +38,12 @@ N/A
   - Media query uses viewport size vs container size
   - An element must be declared with container-type property
   - using the @container rule applies styles based on the element thats been defined with container-type property
+
+- CSS grid (refresher)
+
+  keynotes from MDN:
+
+  - Two dimensional grid system
+  - Fixed and flexible track sizes
+  - Create a grid container and direct children become grid items
+  - Define a set of size for tracks created in the implicit grid with the grid-auto-rows and grid-auto-columns properties

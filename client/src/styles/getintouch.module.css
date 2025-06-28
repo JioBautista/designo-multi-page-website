@@ -12,15 +12,15 @@
   border-radius: 1rem;
   color: white;
   text-align: center;
+  z-index: 1;
 }
 .title {
-  font-size: 32px;
+  font-size: clamp(32px, 4vw, 40px);
   line-height: 35px;
   margin-bottom: 1rem;
 }
 .description {
   margin-bottom: 2rem;
-  font-size: 15px;
 }
 .button {
   background-color: white;
@@ -34,4 +34,18 @@
   background-color: black;
   padding-inline: 1rem;
   padding-top: 15rem;
+}
+@media (min-width: 900px) {
+  .intouch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: start;
+    padding: 6rem;
+    width: 100%;
+  }
+  .halfblock {
+    padding-top: 8rem;
+  }
 }

@@ -7,12 +7,14 @@ import "./styles/app.css";
 function App() {
   const location = useLocation();
   return (
-    <div className="app">
-      <Navbar />
-      <Outlet />
+    <>
+      <div className="app">
+        <Navbar />
+        <Outlet />
+      </div>
       {location.pathname === "/contact" ? null : <GetInTouch />}
       <Footer />
-    </div>
+    </>
   );
 }
 
