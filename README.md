@@ -47,3 +47,5 @@ N/A
   - Fixed and flexible track sizes
   - Create a grid container and direct children become grid items
   - Define a set of size for tracks created in the implicit grid with the grid-auto-rows and grid-auto-columns properties
+
+- Clamp() function for fluid typography
