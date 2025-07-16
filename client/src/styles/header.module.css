@@ -17,3 +17,13 @@
     font-size: 15px;
   }
 }
+@media (min-width: 764px) {
+  .section {
+    border-radius: 1rem;
+    padding: 5rem 10rem;
+
+    h1 {
+      font-size: 48px;
+    }
+  }
+}
