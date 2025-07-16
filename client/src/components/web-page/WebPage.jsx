@@ -51,6 +51,7 @@ function WebPage() {
           memorable brand experiences.
         </p>
       </Header>
+
       <Cards>
         {contents?.map((elements) => (
           <React.Fragment>
@@ -58,9 +59,8 @@ function WebPage() {
           </React.Fragment>
         ))}
       </Cards>
-      <div style={{ marginBottom: "7rem" }}>
-        <NavMain />
-      </div>
+
+      <NavMain />
     </main>
   );
 }
